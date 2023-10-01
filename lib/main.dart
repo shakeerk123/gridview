@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:  MyHomePage(items: [],),
+      home: const  MyHomePage(items: [],),
     );
   }
 }
@@ -31,7 +31,7 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Grid view"),
+        title: const Text("Grid view"),
         backgroundColor: Colors.blue,
       ),
       body: GridView.count(
