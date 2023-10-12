@@ -73,9 +73,9 @@ class MyHomePage extends StatelessWidget {
 
 
 
-            itemCount: 12, // Total number of items in the grid
+            itemCount: 14, // Total number of items in the grid
             itemBuilder: (BuildContext context, int index) {
-              return Padding(
+              return Padding( 
                 padding: const EdgeInsets.all(8.0),
                 child: Container(
                   color: Colors.blue,
